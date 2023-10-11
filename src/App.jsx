@@ -1,23 +1,25 @@
-import React from "react";
-import Navbar from "./styledComponents/NavbarWithStyledComponents/Navbar";
-import { BrowserRouter as Router, Routes, Route } from "react-router-dom";
-import "./App.css";
+// import React from "react";
+// // import HookForm from "./reactFormWithReactHookForm/HookForm";
+// import StyledComponents from "./styledComponents/NavbarWithStyledComponents/styledComponentsBasics/StyledComponents";
+
+// function App() {
+//   return (
+//     <>
+//       <StyledComponents />
+//     </>
+//   );
+// }
+
+// export default App;
+
+
+import React from 'react'
+import TextEditor from './textEditor/TextEditor'
 
 function App() {
   return (
-    <div>
-      <Router>
-        <Navbar />
-        <Routes>
-          <Route path="/" />
-          <Route path="about" />
-          <Route path="/contact" />
-          <Route path="/help" />
-        </Routes>
-      </Router>
-    </div>
-  );
+    <TextEditor/>
+  )
 }
 
-export default App;
-
+export default App

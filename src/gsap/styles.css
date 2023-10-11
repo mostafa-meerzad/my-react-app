@@ -1,0 +1,24 @@
+body {
+  padding: 0;
+  margin: 0;
+}
+
+.app{
+  display: grid;
+  place-content: center;
+  place-items: center;
+  background-color: #eee;
+  width: 100svw;
+  height: 100svh;
+  /* border: 2px solid red; */
+}
+
+.box {
+  width: 4rem;
+  height: 4rem;
+  display: grid;
+  place-content: center;
+  border-radius: .8rem;
+  background-color: #28a92b;
+  color: white;
+}
